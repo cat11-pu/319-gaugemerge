@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "max_value": 1000000,
+  "stale_error_code": "E_STALE_REPORT",
+  "value_error_code": "E_BAD_VALUE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "instances": [], "total": 0, "reports": 0, "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "report", "instance": "a", "tick": 1, "value": 5 },
+    { "id": 2, "kind": "report", "instance": "b", "tick": 1, "value": 3 },
+    { "id": 3, "kind": "report", "instance": "a", "tick": 2, "value": 7 },
+    { "id": 4, "kind": "report", "instance": "c", "tick": 1, "value": 4 }
+  ]
+}
